@@ -22,12 +22,30 @@ Illustrations
 ![image](https://github.com/sakshamofficial/Netbeans-JPDB-Project/assets/68786861/694978ad-c0dd-4250-8eb7-e8cb892b669a)
 
 ![image](https://github.com/sakshamofficial/Netbeans-JPDB-Project/assets/68786861/c78556bb-efb8-4fe9-875d-07dba247d7aa)
+
+
 Stored data in table
+
+
 ![image](https://github.com/sakshamofficial/Netbeans-JPDB-Project/assets/68786861/e63057f7-c971-4ee5-bcae-a34a91e357b7)
+
+
 Filled data after entering pre entered primary id
+
+
 ![image](https://github.com/sakshamofficial/Netbeans-JPDB-Project/assets/68786861/9664bc51-4495-4416-91df-6a1fca1c16c0)
+
+
 Stored Data 
+
+
 ![image](https://github.com/sakshamofficial/Netbeans-JPDB-Project/assets/68786861/1705a4e1-5adc-4227-9b44-f72ab04bad8f)
+
+After reseting the data
+
+
+![image](https://github.com/sakshamofficial/Netbeans-JPDB-Project/assets/68786861/e90cb23b-0c12-4080-92f2-8bd2b28ce19d)
+
 
 
 
