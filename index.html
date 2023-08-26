@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project Management Form</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Project Management Form</h2>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Project ID</span>
+                        <input type="text" class= "form-control" id="projectId" placeholder="Enter project ID" style="margin-bottom: 10px" onchange="getProject()">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Project Name</span>
+                        <input type="text" class="form-control" id="projectName" placeholder="Enter project name" style="margin-bottom: 10px">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">
+                            Assigned To
+                        </span>
+                        <input type="text" id="assignTo" class="form-control" placeholder="Enter assigned person" style="margin-bottom: 10px">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Assignment Date</span>
+                        <input type="date" class="form-control" id="assignDate"  placeholder="Enter assignment date" style="margin-bottom: 10px">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Deadline</span>
+                        <input type="date" id="deadline" class="form-control" placeholder="Enter deadline" style="margin-bottom: 10px">
+                    </div>
+                </div>
+                <div class="control-buttons">
+                    <button type="button" id="save" class="btn btn-primary" style="margin-right: 10px" onclick="saveData()" disabled>Save</button>
+                    <button type="button" id="update" class="btn btn-success" style="margin-right: 10px" onclick="updateData()" disabled>Update</button>
+                    <button type="button" id="reset" class="btn btn-danger" onclick="resetData()" disabled>Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
